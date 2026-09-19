@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+
+# Real ingested data and provenance are local research artifacts, not code.
+# Keep the folder structure (.gitkeep) but not the contents.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/metadata/*
+!data/metadata/.gitkeep
+
+config.json
+.env

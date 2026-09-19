@@ -1,0 +1,17 @@
+{
+  "bbox": {
+    "min_lat": 18.75,
+    "max_lat": 19.50,
+    "min_lon": 72.75,
+    "max_lon": 73.35,
+    "label": "MMR feasibility bounding box (hand-built approximation, NOT official MMRDA boundary)",
+    "is_official_polygon": false
+  },
+  "country_filter": "IN",
+  "gbif_page_size": 300,
+  "gbif_interactive_record_limit": 8000,
+  "inaturalist_per_page": 200,
+  "inaturalist_interactive_record_limit": 3000,
+  "request_delay_seconds": 0.5,
+  "spatial_default_grid_size_deg": 0.05
+}
